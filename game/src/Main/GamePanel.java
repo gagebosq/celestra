@@ -29,6 +29,7 @@ public class GamePanel extends JPanel implements Runnable {
     TileManager tileM = new TileManager(this);
     KeyHandler keyH = new KeyHandler();
     Thread gameThread; // keeps game running
+    public CollisionChecker cChcker = new CollisionChecker(this); // colllision chekcer
     public Player player = new Player(this, keyH);
 
 
@@ -70,7 +71,7 @@ public class GamePanel extends JPanel implements Runnable {
             }
 
             if (timer >= 1000000000) {
-                System.out.print("FPS = " + drawCount);
+                //System.out.print("FPS = " + drawCount);
                 drawCount = 0;
                 timer = 0;
             }
