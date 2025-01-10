@@ -13,5 +13,7 @@ public class OBJ_Door extends SuperObject {
             e.printStackTrace();
         }
 
+        collision = true; // cant go through door object
+
     }
 }
