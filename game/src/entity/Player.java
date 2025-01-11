@@ -131,9 +131,14 @@ public class Player extends Entity {
                     break;
                 case "Boots":
                     gp.playSE(2);
-                    speed += 2;
+                    speed += 1;
                     gp.obj[i] = null;
                     gp.ui.showMessage("Omg so fast!");
+                    break;
+                case "Chest":
+                    gp.ui.gameFinished = true;
+                    gp.stopMusic();
+                    gp.playSE(4);
                     break;
             }
         }

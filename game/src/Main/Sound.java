@@ -38,6 +38,6 @@ public class Sound {
     }
 
     public void stop() {
-        clip.start();
+        clip.stop();
     }
 }
