@@ -25,7 +25,7 @@ public class UI {
 
         Luminari = new Font("Luminari", Font.PLAIN, 40);
         Luminari80 = new Font("Luminari", Font.PLAIN, 70);
-        OBJ_Key key = new OBJ_Key();
+        OBJ_Key key = new OBJ_Key(gp);
         keyImage = key.image;
     }
 
@@ -52,7 +52,7 @@ public class UI {
             g2.drawString(text, x, y);
 
 
-            text = "You took: " + dFormat.format(playTime) + "! Seconds";
+            text = "You took: " + dFormat.format(playTime) + " Seconds!";
             textLength = (int) g2.getFontMetrics().getStringBounds(text, g2).getWidth();
             x = gp.screenWidth / 2 - textLength / 2;
             y = gp.screenWidth / 2 + (gp.tileSize * 2);
