@@ -1,7 +1,6 @@
 
+![Screenshot 2025-01-12 at 7 08 08 PM](https://github.com/user-attachments/assets/3a1c3ba3-2a7c-4201-ad04-bdad7cd00335)
 
-
-![Screenshot 2025-01-08 at 10 25 59 PM](https://github.com/user-attachments/assets/34009e67-da1a-4cb8-bde2-143b12031dd2)
 
 ## Overview
 Celestra is an exciting 2D adventure game where players guide a blue character through a vibrant and challenging world. The main objective is to collect three keys hidden in the game world to unlock the doors that guard a magnificent treasure. With dynamic gameplay and a colorful environment, Celestra is sure to captivate players of all ages.
